@@ -35,8 +35,6 @@ function yearList(year){
 	}
 	document.getElementById("currentInfo").innerHTML = x;
 }
-<<<<<<< HEAD
-=======
 
 function countrySearch(country){
 	var x = "", i;
@@ -66,4 +64,4 @@ function yearSelect(year){
         y.addEventListener('click', settime(i), false);
     }
 }
->>>>>>> refs/remotes/origin/master
+globe.animate();
