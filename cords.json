@@ -1,0 +1,572 @@
+[
+  {
+    cord:"33\t66\t330000\t660000\t42STB1970055286\tNI42-09\tPCLI\t\tAF\tAfghanistan\tIslamic Republic of Afghanistan\t2009-04-10\tAF"
+  },
+  {
+    cord:"41\t20\t410000\t200000\t34TDL1589839239\tNK34-08\tPCLI\t\tAL\tAlbania\tRepublic of Albania\t2007-02-28\tAL"
+  },
+  {
+    cord:"28\t3\t280000\t30000\t31REL0000097202\tNH31-15\tPCLI\t\tAG\tAlgeria\tPeople's Democratic Republic of Algeria\t2011-03-03\tDZ"
+  },
+  {
+    cord:"-14.3333333\t-170\t-142000\t-1700000\t1802701\t\tPCLD\tUS\tAS\tAmerican Samoa\tTerritory of American Samoa\t1998-10-06\tAS"
+  },
+  {
+    cord:"42.5\t1.5\t423000\t13000\t31TCH7675006383\tNK31-04\tPCLI\t\tAN\tAndorra\tPrincipality of Andorra\t2007-02-28\tAD"
+  },
+  {
+    cord:"-12.5\t18.5\t-123000\t183000\t34LBM2828516873\tSD34-01\tPCLI\t\tAO\tAngola\tRepublic of Angola\t2007-02-28\tAO"
+  },
+  {
+    cord:"18.216667\t-63.05\t181300\t-630300\t20QMF9471314158\tNE20-06\tPCLD\tUK\tAV\tAnguilla\tAnguilla\t1993-12-22\tAI"
+  },
+  {
+    cord:"17.05\t-61.8\t170300\t-614800\t20QPD2770685478\tNE20-11\tPCLI\t\tAC\tAntigua and Barbuda\tAntigua and Barbuda\t1997-08-29\tAG"
+  },
+  {
+    cord:"-34\t-64\t-340000\t-640000\t20HMH0765037393\tSI20-06\tPCLI\t\tAR\tArgentina\tArgentine Republic\t2007-02-28\tAR"
+  },
+  {
+    cord:"40\t45\t400000\t450000\t38TNK0000027757\tNK38-11\tPCLI\t\tAM\tArmenia\tRepublic of Armenia\t2007-02-28\tAM"
+  },
+  {
+    cord:"12.5\t-69.966667\t123000\t-695800\t19PCP9496382035\tND19-14\tPCLIX\tNL\tAA\tAruba\tAruba\t1993-12-21\tAW"
+  },
+  {
+    cord:"-15.95\t-5.7\t-155700\t-54200\t30LTH1096034723\tSD30-13\tPCLD\tUK\tSH\tAscension\tAscension and Tristan da Cunha Saint Helena\t1993-12-22\tSH"
+  },
+  {
+    cord:"-25\t135\t-250000\t1350000\t53JNN0000035052\tSG53-03\tPCLI\t\tAS\tAustralia\tCommonwealth of Australia\t2007-02-28\tAU"
+  },
+  {
+    cord:"47.333333\t13.333333\t472000\t132000\t33TUN7408243554\tNL33-01\tPCLI\t\tAU\tAustria\tRepublic of Austria\t2007-03-20\tAT"
+  },
+  {
+    cord:"40.5\t47.5\t403000\t473000\t38TQK1184586257\tNK38-12\tPCLI\t\tAJ\tAzerbaijan\tRepublic of Azerbaijan\t2007-02-28\tAZ"
+  },
+  {
+    cord:"24\t-76\t240000\t-760000\t18RUM9828554588\tNG18-14\tPCLI\t\tBF\tBahamas\tCommonwealth of The Bahamas\t2007-02-28\tBS"
+  },
+  {
+    cord:"26\t50.5\t260000\t503000\t39RVJ4996175780\tNG39-06\tPCLI\t\tBA\tBahrain\tKingdom of Bahrain\t2007-02-28\tBH"
+  },
+  {
+    cord:"24\t90\t240000\t900000\t46RAM9477357479\tNG46-13\tPCLI\t\tBG\tBangladesh\tPeople's Republic of Bangladesh\t2007-02-28\tBD"
+  },
+  {
+    cord:"13.166667\t-59.533333\t131000\t-593200\t21PTQ2538656950\tND21-09\tPCLI\t\tBB\tBarbados\tBarbados\t1997-08-29\tBB"
+  },
+  {
+    cord:"53\t28\t530000\t280000\t35UNU6710972738\tNN35-09\tPCLI\t\tBO\tBelarus\tRepublic of Belarus\t2007-02-28\tBY"
+  },
+  {
+    cord:"50.833333\t4\t505000\t40000\t31UES7042031768\tNM31-06\tPCLI\t\tBE\tBelgium\tKingdom of Belgium\t2011-11-29\tBE"
+  },
+  {
+    cord:"17.25\t-88.75\t171500\t-884500\t16QCE1394908054\tNE16-09\tPCLI\t\tBH\tBelize\tBelize\t1997-08-29\tBZ"
+  },
+  {
+    cord:"9.5\t2.25\t93000\t21500\t31PDL1767950220\tNC31-10\tPCLI\t\tBN\tBenin\tRepublic of Benin\t2007-02-28\tBJ"
+  },
+  {
+    cord:"32.333333\t-64.75\t322000\t-644500\t20SLA3529378730\tNI20-13\tPCLD\tUK\tBD\tBermuda\tBermuda\t1993-12-22\tBM"
+  },
+  {
+    cord:"27.5\t90.5\t273000\t903000\t46RBR5302344306\tNG46-01\tPCLI\t\tBT\tBhutan\tKingdom of Bhutan\t2007-02-28\tBT"
+  },
+  {
+    cord:"-17\t-65\t-170000\t-650000\t20KKG8707719358\tSE20-01\tPCLI\t\tBL\tBolivia\tPlurinational State of Bolivia\t2007-02-28\tBO"
+  },
+  {
+    cord:"12.2\t-68.25\t121200\t-681500\t19PEP8158648782 \tND19-15 \tADMD \tNL\tNT\tBonaire\tBonaire"
+  },
+  {
+    cord:"13      -2      130000  -20000  30PXV0844637349 ND30-11 PCLI            UV      Burkina Faso    Burkina Faso    2001-03-21      BF,,"
+  },
+  {
+    cord:"-3.5    30      -33000  300000  36MSB6664112607 SA36-13 PCLI            BY      Burundi Republic of Burundi     2007-02-28      BI,,"
+  },
+  {
+    cord:"13      105     130000  1050000 48PWV0000037136 ND48-11 PCLI            CB      Cambodia        Kingdom of Cambodia     2007-02-28      KH,,"
+  },
+  {
+    cord:"6       12      60000   120000  33NSG6784264114 NB33-05 PCLI            CM      Cameroon        Republic of Cameroon    2011-11-29      CM,,"
+  },
+  {
+    cord:"60      -96     600000  -960000 15VUG3270555205 NP15-13 PCLI            CA      Canada  Canada  1997-08-29      CA,,"
+  },
+  {
+    cord:"19.5    -80.666667      193000  -804000 17QNB3497756187 NE17-03 PCLD    UK      CJ      Cayman Islands  Cayman Islands  1997-08-29      KY,,"
+  },
+  {
+    cord:"7       21      70000   210000  34NEN0000073749 NB34-03 PCLI            CT      Central African Republic        Central African Republic        2007-02-28      CF,,"
+  },
+  {
+    cord:"15      19      150000  190000  34PBB8494759298 ND34-01 PCLI            CD      Chad    Republic of Chad        2007-02-28      TD,,"
+  },
+  {
+    cord:"-30     -71     -300000 -710000 19JCG0708579531 SH19-09 PCLI            CI      Chile   Republic of Chile       2007-02-28      CL,,"
+  },
+  {
+    cord:"35      105     350000  1050000 48SWD0000073043 NI48-03 PCLI            CH      China   People's Republic of China      1997-11-18      CN,,"
+  },
+  {
+    cord:"4       -72     40000   -720000 19NAE6683142736 NB19-13 PCLI            CO      Colombia        Republic of Colombia    2007-02-28      CO,,"
+  },
+  {
+    cord:"-12.166667      44.25   -121000 441500  38LMM1840454904 SD38-02 PCLI            CN      Comoros Union of the Comoros    2007-02-28      KM,,"
+  },
+  {
+    cord:"10      -84     100000  -840000 17PJM7107106909 NC17-05 PCLI            CS      Costa Rica      Republic of Costa Rica  2007-02-28      CR,,"
+  },
+  {
+    cord:"45.166667       15.5    451000  153000  33TWL3929301587 NL33-08 PCLI            HR      Croatia Republic of Croatia     2011-11-29      HR,,"
+  },
+  {
+    cord:"22      -79.5   220000  -793000 17QPE5484433586 NF17-08 PCLI            CU      Cuba    Republic of Cuba        2007-02-28      CU,,"
+  },
+  {
+    cord:"12.166667       -69     121000  -690000 19PEP0000044983 ND19-15 PCLIX   NL      UC      Curaçao Land Curacao    2010-11-04      CW,,"
+  },
+  {
+    cord:"35      33      350000  330000  36SWD0000073043 NI36-03 PCLI            CY      Cyprus  Republic of Cyprus      2007-02-28      CY,,"
+  },
+  {
+    cord:"8\t-5\t80000\t-50000\t30PTP7955884833\tNC30-13\t?PCLI\t\tIV\tC?te d'Ivoire Republic of Cote d'Ivoire\t2011-05-11\tCI"
+  },
+  {
+    cord:"49.75   15      494500  150000  33UWR0000010835 NM33-08 PCLI            EZ      Czech Republic  Czech Republic  2011-11-29      CZ,,"
+  },
+  {
+    cord:"0       25      0       250000  35NKA7740500000 NA35-13 PCLI            CG      Democratic Republic of the Congo        Democratic Republic of the Congo        2007-02-28      CD,,"
+  },
+  {
+    cord:"56      10      560000  100000  32VNH6236706531 NO32-12 PCLI            DA      Denmark Kingdom of Denmark      2007-02-28      DK,,"
+  },
+  {
+    cord:"11.5    42.5    113000  423000  38PKT2728172452 NC38-01 PCLI            DJ      Djibouti        Republic of Djibouti    2007-02-28      DJ,,"
+  },
+  {
+    cord:"19      -70.666667      190000  -704000 19QCB2456401658 NE19-01 PCLI            DR      Dominican Republic      Dominican Republic      2007-02-28      DO,,"
+  },
+  {
+    cord:"-2      -77.5   -20000  -773000 18MTC2189278727 SA18-05 PCLI            EC      Ecuador Republic of Ecuador     2007-02-28      EC,,"
+  },
+  {
+    cord:"27      30      270000  300000  36RTQ0227489976 NG36-01 PCLI            EG      Egypt   Arab Republic of Egypt  2007-02-28      EG,,"
+  },
+  {
+    cord:"13.833333       -88.916667      135000  -885500 16PBA9283530123 ND16-09 PCLI            ES      El Salvador     Republic of El Salvador 2007-02-28      SV,,"
+  },
+  {
+    cord:"2       10      20000   100000  32NPH1121321095 NA32-07 PCLI            EK      Equatorial Guinea       Republic of Equatorial Guinea   2007-02-28      GQ,,"
+  },
+  {
+    cord:"15      39      150000  390000  37PES0000058326 ND37-03 PCLI            ER      Eritrea State of Eritrea        2007-02-28      ER,,"
+  },
+  {
+    cord:"59      26      590000  260000  35VMF4254940482 NO35-02 PCLI            EN      Estonia Republic of Estonia     2007-02-28      EE,,"
+  },
+  {
+    cord:"35\t33\t350000\t330000\t36SWD0000073043\tNI36-03\tPCLI\t\tCY\tCyprus\tRepublic of Cyprus\t2007-02-28\tCY"
+  },
+  {
+    cord:"49.75\t15\t494500\t150000\t33UWR0000010835\tNM33-08\tPCLI\t\tEZ\tCzech Republic\tCzech Republic\t2011-11-29\tCZ"
+  },
+  {
+    cord:"0\t25\t0\t250000\t35NKA7740500000\tNA35-13\tPCLI\t\tCG\tDemocratic Republic of the Congo\tDemocratic Republic of the Congo\t2007-02-28\tCD"
+  },
+  {
+    cord:"56\t10\t560000\t100000\t32VNH6236706531\tNO32-12\tPCLI\t\tDA\tDenmark\tKingdom of Denmark\t2007-02-28\tDK"
+  },
+  {
+    cord:"11.5\t42.5\t113000\t423000\t38PKT2728172452\tNC38-01\tPCLI\t\tDJ\tDjibouti\tRepublic of Djibouti\t2007-02-28\tDJ"
+  },
+  {
+    cord:"15.5\t-61.333333\t153000\t-612000\t20PPC7877814324\tND20-04\tPCLI\t\tDO\tDominica\tCommonwealth of Dominica\t2007-02-28\tDM"
+  },
+  {
+    cord:"19\t-70.666667\t190000\t-704000\t19QCB2456401658\tNE19-01\tPCLI\t\tDR\tDominican Republic\tDominican Republic\t2007-02-28\tDO"
+  },
+  {
+    cord:"-2\t-77.5\t-20000\t-773000\t18MTC2189278727\tSA18-05\tPCLI\t\tEC\tEcuador\tRepublic of Ecuador\t2007-02-28\tEC"
+  },
+  {
+    cord:"27\t30\t270000\t300000\t36RTQ0227489976\tNG36-01\tPCLI\t\tEG\tEgypt\tArab Republic of Egypt\t2007-02-28\tEG"
+  },
+  {
+    cord:"13.833333\t-88.916667\t135000\t-885500\t16PBA9283530123\tND16-09\tPCLI\t\tES\tEl Salvador\tRepublic of El Salvador\t2007-02-28\tSV"
+  },
+  {
+    cord:"2\t10\t20000\t100000\t32NPH1121321095\tNA32-07\tPCLI\t\tEK\tEquatorial Guinea\tRepublic of Equatorial Guinea\t2007-02-28\tGQ"
+  },
+  {
+    cord:"15\t39\t150000\t390000\t37PES0000058326\tND37-03\tPCLI\t\tER\tEritrea\tState of Eritrea\t2007-02-28\tER"
+  },
+  {
+    cord:"59\t26\t590000\t260000\t35VMF4254940482\tNO35-02\tPCLI\t\tEN\tEstonia\tRepublic of Estonia\t2007-02-28\tEE"
+  },
+  {
+    cord:"8\t38\t80000\t380000\t37PCJ8979584432\tNC37-14\tPCLI\t\tET\tEthiopia\tFederal Democratic Republic of Ethiopia\t2007-02-28\tET"
+  },
+  {
+    cord:"-51.75\t-59.166667\t-514500\t-591000\t21FUC5043864546\tSM21-10\tPCLD\tUK\tFK\tFalkland Islands\tFalkland Islands (Islas Malvinas)\t1996-12-16\tFK"
+  },
+  {
+    cord:"5\t152\t50000\t1520000\t56NLL8914052749\tNB56-10\tPCLF\t\tFM\tFederated States of Micronesia\tFederated States of Micronesia\t2007-02-28\tFM"
+  },
+  {
+    cord:"-18\t178\t-180000\t1780000\t60KXF0586709529\tSE60-07\tPCLI\t\tFJ\tFiji\tRepublic of Fiji\t2007-02-28\tFJ"
+  },
+  {
+    cord:"64\t26\t640000\t260000\t35WML5108997398\tNQ35-13\tPCLI\t\tFI\tFinland\tRepublic of Finland\t2007-02-28\tFI"
+  },
+  {
+    cord:"46\t2\t460000\t20000\t31TDL2256894534\tNL31-05\tPCLI\t\tFR\tFrance\tFrench Republic\t2007-03-09\tFR"
+  },
+  {
+    cord:"4\t-53\t40000\t-530000\t22NBK7794442398\tNB22-13\tADM1\tFR\tFG\tFrench Guiana\tDepartment of Guiana\t2007/02/28\tGF"
+  },
+  {
+    cord:"-15\t-140\t-150000\t-1400000\t07LFD0751241431\tSD07-11\tPCLD\tFR\tFP\tFrench Polynesia\tFrench Polynesia\t2010-11-18\tPF"
+  },
+  {
+    cord:"-1\t11.75\t-10000\t114500\t32MRD0607889342\tSA32-04\tPCLI\t\tGB\tGabon\tGabonese Republic\t2007-02-28\tGA"
+  },
+  {
+    cord:"13.5\t-15.5\t133000\t-153000\t28PDV4588992485\tND28-10\tPCLI\t\tGA\tGambia\tRepublic of The Gambia\t2011-11-29\tGM"
+  },
+  {
+    cord:"31.425074\t34.373398\t312530\t342224\t36RXV3053377528\tNH36-03\tTERR\t\tGZ\tGaza Strip\tGaza Strip\t2009-01-23\tPS"
+  },
+  {
+    cord:"41.999981\t43.499905\t420000\t433000\t38TLM7576450862\tNK38-07\tPCLI\t\tGG\tGeorgia\tGeorgia\t2010-08-02\tGE"
+  },
+  {
+    cord:"51.5\t10.5\t513000\t103000\t32UPC0411606496\tNM32-03\tPCLI\t\tGM\tGermany\tFederal Republic of Germany\t2007-02-28\tDE"
+  },
+  {
+    cord:"8\t-2\t80000\t-20000\t30PXP1020584432\tNC30-15\tPCLI\t\tGH\tGhana\tRepublic of Ghana\t2007-02-28\tGH"
+  },
+  {
+    cord:"36.133333\t-5.35\t360800\t-52100\t30STF8853901295\tNJ30-10\tPCLD\tUK\tGI\tGibraltar\tGibraltar\t1993-12-22\tGI"
+  },
+  {
+    cord:"39\t22\t390000\t220000\t34SEJ8659317252\tNJ34-03\tPCLI\t\tGR\tGreece\tHellenic Republic\t2007-02-28\tGR"
+  },
+  {
+    cord:"72\t-40\t720000\t-400000\t24XVE6551189219\tNS23-12\tPCLS\tDA\tGL\tGreenland\tGreenland\t2010-04-16\tGL"
+  },
+  {
+    cord:"12.116667\t-61.666667\t120700\t-614000\t20PPU4509539809\tND20-16\tPCLI\t\tGJ\tGrenada\tGrenada\t2007-02-28\tGD"
+  },
+  {
+    cord:"16.25\t-61.583333\t161500\t-613500\t20QPC5139597113\tNE20-15\tADM1\tFR\tGP\tGuadeloupe\tDepartment of Guadeloupe\t2007/02/28\tGP"
+  },
+  {
+    cord:"13.4444444\t144.7366667\t132640\t1444412\t1802705\t\tPCLD\tUS\tGU\tGuam\tTerritory of Guam\t1998-10-06\tGU"
+  },
+  {
+    cord:"15.5\t-90.25\t153000\t-901500\t15PYT9504515523\tND15-04\tPCLI\t\tGT\tGuatemala\tRepublic of Guatemala\t2007-02-28\tGT"
+  },
+  {
+    cord:"11\t-10\t110000\t-100000\t29PLN9075116161\tNC29-02\tPCLI\t\tGV\tGuinea\tRepublic of Guinea\t2007-02-28\tGN"
+  },
+  {
+    cord:"12\t-15\t120000\t-150000\t28PEU0000026554\tND28-15\tPCLI\t\tPU\tGuinea-Bissau\tRepublic of Guinea-Bissau\t2007-02-28\tGW"
+  },
+  {
+    cord:"5\t-59\t50000\t-590000\t21NTF7824753002\tNB21-09\tPCLI\t\tGY\tGuyana\tCo-operative Republic of Guyana\t2007-02-28\tGY"
+  },
+  {
+    cord:"19\t-72.416667\t190000\t-722500\t18QYG7196902825\tNE18-08\tPCLI\t\tHA\tHaiti\tRepublic of Haiti\t2007-02-28\tHT"
+  },
+  {
+    cord:"15\t-86.5\t150000\t-863000\t16PEB5375458387\tND16-03\tPCLI\t\tHO\tHonduras\tRepublic of Honduras\t2007-02-28\tHN"
+  },
+  {
+    cord:"47\t20\t470000\t200000\t34TDT2397505649\tNL34-02\tPCLI\t\tHU\tHungary\tRepublic of Hungary\t2007-02-28\tHU"
+  },
+  {
+    cord:"22.25\t114.166667\t221500\t1141000\t50QKK0797163234\tNF50-05\tPCLS\tCH\tHK\tHong Kong\tHong Kong SAR   2003-04-01\tHK"
+  },
+  {
+    cord:"65\t-18\t650000\t-180000\t28WCT5857211811\tNQ27-11\tPCLI\t\tIC\tIceland\tRepublic of Iceland\t2011-02-10\tIS"
+  },
+  {
+    cord:"20\t77\t200000\t770000\t43QGC0924312731\tNF43-16\tPCLI\t\tIN\tIndia\tRepublic of India\t2007-02-28\tIN"
+  },
+  {
+    cord:"-5\t120\t-50000\t1200000\t51MSQ6728646576\tSB51-01\tPCLI\t\tID\tIndonesia\tRepublic of Indonesia\t2007-02-28\tID"
+  },
+  {
+    cord:"32\t53\t320000\t530000\t39SXR8892842183\tNI39-16\tPCLI\t\tIR\tIran\tIslamic Republic of Iran\t2007-02-28\tIR"
+  },
+  {
+    cord:"33\t44\t330000\t440000\t38SMB0658251731\tNI38-10\tPCLI\t\tIZ\tIraq\tRepublic of Iraq\t2007-02-28\tIQ"
+  },
+  {
+    cord:"53\t-8\t530000\t-80000\t29UNU6710972738\tNN29-09\tPCLI\t\tEI\tIreland\tIreland\t2010-10-15\tIE"
+  },
+  {
+    cord:"31.5\t34.75\t313000\t344500\t36RXV6619986343\tNH36-04\tPCLI\t\tIS\tIsrael\tState of Israel\t2007-02-28\tIL"
+  },
+  {
+    cord:"42.833333\t12.833333\t425000\t125000\t33TUH2291944584\tNK33-04\tPCLI\t\tIT\tItaly\tItalian Republic\t2011-11-29\tIT"
+  },
+  {
+    cord:"18.25\t-77.5\t181500\t-773000\t18QTF3565119652\tNE18-05\tPCLI\t\tJM\tJamaica\tJamaica\t1997-06-26\tJM"
+  },
+  {
+    cord:"36\t138\t360000\t1380000\t54STE2957988112\tNJ54-13\tPCLI\t\tJA\tJapan\tJapan\t1997-08-29\tJP"
+  },
+  {
+    cord:"31\t36\t310000\t360000\t37RBQ1354033467\tNH37-01\tPCLI\t\tJO\tJordan\tHashemite Kingdom of Jordan\t2007-02-28\tJO"
+  },
+  {
+    cord:"48\t68\t480000\t680000\t42UVU2540516784\tNM42-10\tPCLI\t\tKZ\tKazakhstan\tRepublic of Kazakhstan\t2007-02-28\tKZ"
+  },
+  {
+    cord:"1\t38\t10000\t380000\t37NCB8873610547\tNA37-10\tPCLI\t\tKE\tKenya\tRepublic of Kenya\t2007-02-28\tKE"
+  },
+  {
+    cord:"-5\t-170\t-50000\t-1700000\t02MPV1086047251\tSB02-03\tPCLI\t\tKR\tKiribati\tRepublic of Kiribati\t2007-02-28\tKI"
+  },
+  {
+    cord:"42.583333\t21\t423500\t210000\t34TEN0000014546\tNK34-05\tPCLI\t\tKV\tKosovo\tRepublic of Kosovo\t2009-06-12"
+  },
+  {
+    cord:"29.5\t47.75\t293000\t474500\t38RQT6660466535\tNH38-12\tPCLI\t\tKU\tKuwait\tState of Kuwait\t2007-02-28\tKW"
+  },
+  {
+    cord:"41\t75\t410000\t750000\t43TEF0000038757\tNK43-08\tPCLI\t\tKG\tKyrgyzstan\tKyrgyz Republic\t2007-02-28\tKG"
+  },
+  {
+    cord:"18\t105\t180000\t1050000\t48QWE0000090186\tNE48-07\tPCLI\t\tLA\tLaos\tLao People's Democratic Republic\t2010-12-22\tLA"
+  },
+  {
+    cord:"57\t25\t570000\t250000\t35VLD7851419164\tNO35-07\tPCLI\t\tLG\tLatvia\tRepublic of Latvia\t2007-02-28\tLV"
+  },
+  {
+    cord:"33.833333\t35.833333\t335000\t355000\t36SYC6220347288\tNI36-12\tPCLI\t\tLE\tLebanon\tRepublic of Lebanon\t2007-02-28\tLB"
+  },
+  {
+    cord:"-29.5\t28.25\t-293000\t281500\t35JPH2116435966\tSH35-07\tPCLI\t\tLT\tLesotho\tKingdom of Lesotho\t2007-02-28\tLS"
+  },
+  {
+    cord:"6.5\t-9.5\t63000\t-93000\t29NMH4471718503\tNB29-06\tPCLI\t\tLI\tLiberia\tRepublic of Liberia\t2007-02-28\tLR"
+  },
+  {
+    cord:"25\t17\t250000\t170000\t33RYH0184666437\tNG33-12\tPCLI\t\tLY\tLibya\tLibya\t2007-02-28\tLY"
+  },
+  {
+    cord:"47.166667\t9.533333\t471000\t93200\t32TNT4042123823\tNL32-02\tPCLI\t\tLS\tLiechtenstein\tPrincipality of Liechtenstein\t2007-02-28\tLI"
+  },
+  {
+    cord:"56\t24\t560000\t240000\t35VLC1292910141\tNO35-10\tPCLI\t\tLH\tLithuania\tRepublic of Lithuania\t2007-02-28\tLT"
+  },
+  {
+    cord:"49.75\t6.166667\t494500\t61000\t32UKA9590614688\tNM32-07\tPCLI\t\tLU\tLuxembourg\tGrand Duchy of Luxembourg\t2007-02-28\tLU"
+  },
+  {
+    cord:"41.833333\t22\t415000\t220000\t34TEM8303431755\tNK34-09\tPCLI\t\tMK\tMacedonia\tRepublic of Macedonia\t2007-02-28\tMK"
+  },
+  {
+    cord:"-20\t47\t-200000\t470000\t38KQC0924387269\tSE38-16\tPCLI\t\tMA\tMadagascar\tRepublic of Madagascar\t2007-02-28\tMG"
+  },
+  {
+    cord:"-13.5\t34\t-133000\t340000\t36LXL0822507350\tSD36-07\tPCLI\t\tMI\tMalawi\tRepublic of Malawi\t2007-02-28\tMW"
+  },
+  {
+    cord:"2.5\t112.5\t23000\t1123000\t49NFC6677476422\tNA49-08\tPCLI\t\tMY\tMalaysia\tMalaysia\t2003-11-25\tMY"
+  },
+  {
+    cord:"3.2\t73\t31200\t730000\t43NBD7775053916\tNA43-01\tPCLI\t\tMV\tMaldives\tRepublic of Maldives\t1997-08-11\tMV"
+  },
+  {
+    cord:"17\t-4\t170000\t-40000\t30QUD9355279827\tNE30-10\tPCLI\t\tML\tMali\tRepublic of Mali\t2007-02-28\tML"
+  },
+  {
+    cord:"35.916667\t14.433333\t355500\t142600\t33SVV4887474854\tNI33-02\tPCLI\t\tMT\tMalta\tRepublic of Malta\t2007-02-28\tMT"
+  },
+  {
+    cord:"10\t167\t100000\t1670000\t58PGS1923306077\tNC58-08\tPCLF\t\tRM\tMarshall Islands\tRepublic of the Marshall Islands\t1996-12-16\tMH"
+  },
+  {
+    cord:"14.666667\t-61\t144000\t-610000\t20PQB1538322410\tND20-08\tADM1\tFR\tMB\tMartinique\tDepartment of Martinique\t2007/02/28\tMQ"
+  },
+  {
+    cord:"20\t-12\t200000\t-120000\t29QJC8607414294\tNF29-13\tPCLI\t\tMR\tMauritania\tIslamic Republic of Mauritania\t2007-05-23\tMR"
+  },
+  {
+    cord:"-20.3\t57.583333\t-201800\t573500\t40KEC6090455213\tSF40-03\tPCLI\t\tMP\tMauritius\tRepublic of Mauritius\t2007-02-28\tMU"
+  },
+  {
+    cord:"-12.833333\t45.166667\t-125000\t451000\t38LNL1808681289\tSD38-02\tADM1\tFR\tMF\tMayotte\tDepartment of Mayotte\t2012/01/18\tYT"
+  },
+  {
+    cord:"23\t-102\t230000\t-1020000\t14QJL9245746668\tNF14-01\tPCLI\t\tMX\tMexico\tUnited Mexican States\t2007-02-28\tMX"
+  },
+  {
+    cord:"47\t29\t470000\t290000\t35TPN5204907105\tNL35-03\tPCLI\t\tMD\tMoldova\tRepublic of Moldova\t2007-02-28\tMD"
+  },
+  {
+    cord:"43.733333\t7.4\t434400\t72400\t32TLP7114843499\tNK32-01\tPCLI\t\tMN\tMonaco\tPrincipality of Monaco\t2007-02-28\tMC"
+  },
+  {
+    cord:"46\t105\t460000\t1050000\t48TWR0000094047\tNL48-05\tPCLI\t\tMG\tMongolia\tMongolia\t2006-02-13\tMN"
+  },
+  {
+    cord:"42.5\t19.3\t423000\t191800\t34TCN6031606693\tNK34-04\tPCLI\t\tMJ\tMontenegro\tMontenegro\t2007-02-28\tME"
+  },
+  {
+    cord:"16.75\t-62.2\t164500\t-621200\t20QND8526952071\tNE20-15\tPCLD\tUK\tMH\tMontserrat\tMontserrat\t1993-12-22\tMS"
+  },
+  {
+    cord:"32\t-5\t320000\t-50000\t30SUA1107242183\tNI30-13\tPCLI\t\tMO\tMorocco\tKingdom of Morocco\t2007-05-23\tMA"
+  },
+  {
+    cord:"-18.25\t35\t-181500\t350000\t36KYE1146080999\tSE36-12\tPCLI\t\tMZ\tMozambique\tRepublic of Mozambique\t2007-02-28\tMZ"
+  },
+  {
+    cord:"-22\t17\t-220000\t170000\t33KYR0647265823\tSF33-08\tPCLI\t\tWA\tNamibia\tRepublic of Namibia\t2007-02-28\tNA"
+  },
+  {
+    cord:"-0.533333\t166.916667\t-3200\t1665500\t58MGE1330841017\tSA58-04\tPCLI\t\tNR\tNauru\tRepublic of Nauru\t1996-11-29\tNR"
+  },
+  {
+    cord:"28\t84\t280000\t840000\t45RTM0495700831\tNH45-13\tPCLI\t\tNP\tNepal\tFederal Democratic Republic of Nepal\t2007-04-13\tNP"
+  },
+  {
+    cord:"52.5\t5.75\t523000\t54500\t31UFU8666020207\tNN31-12\tPCLI\t\tNL\tNetherlands\tKingdom of the Netherlands\t2007-02-28\tNL"
+  },
+  {
+    cord:"-21.5\t165.5\t-213000\t1653000\t58KEB5179022432\tSF58-07\tPCLD\tFR\tNC\tNew Caledonia\tNew Caledonia\t2010-11-18\tNC"
+  },
+  {
+    cord:"-42\t174\t-420000\t1740000\t60GTU5153545869\tSK59-06\tPCLI\t\tNZ\tNew Zealand\tNew Zealand\t1993-12-30\tNZ"
+  },
+  {
+    cord:"13\t-85\t130000\t-850000\t16PGV1692337988\tND16-12\tPCLI\t\tNU\tNicaragua\tRepublic of Nicaragua\t2007-02-28\tNI"
+  },
+  {
+    cord:"16\t8\t160000\t80000\t32QLC9300469193\tNE32-14\tPCLI\t\tNG\tNiger\tRepublic of Niger\t2007-02-28\tNE"
+  },
+  {
+    cord:"10\t8\t100000\t80000\t32PLS9039905579\tNC32-06\tPCLI\t\tNI\tNigeria\tFederal Republic of Nigeria\t2007-02-28\tNG"
+  },
+  {
+    cord:"-19.033333\t-169.866667\t-190200\t-1695200\t02KPD1926695100\tSE02-15\tPCLS\tNZ\tNE\tNiue\tNiue\t1996-11-29\tNU"
+  },
+  {
+    cord:"-29.033333\t167.95\t-290200\t1675700\t58JGN8730584730\tSH58-08\tPCLD\tAS\tNF\tNorfolk Island\tTerritory of Norfolk Island\t2007-02-28\tNF"
+  },
+  {
+    cord:"40\t127\t400000\t1270000\t52TCK2927529673\tNK52-10\tPCLI\t\tKN\tNorth Korea\tDemocratic People's Republic of Korea\t2007-02-28\tKP"
+  },
+  {
+    cord:"16\t146\t160000\t1460000\t1779809\t\tPCLD\tUS\tMP\tNorthern Mariana Islands\tCommonwealth of the Northern Mariana Islands\t1998-02-06\tMP"
+  },
+  {
+    cord:"62\t10\t620000\t100000\t32VNP5237674584\tNP31-08\tPCLI\t\tNO\tNorway\tKingdom of Norway\t2007-02-28\tNO"
+  },
+  {
+    cord:"21\t57\t210000\t570000\t40QEJ0000022148\tNF40-11\tPCLI\t\tMU\tOman\tSultanate of Oman\t2010-12-15\tOM"
+  },
+  {
+    cord:"30\t70\t300000\t700000\t42RWU9645019206\tNH42-07\tPCLI\t\tPK\tPakistan\tIslamic Republic of Pakistan\t1997-11-18\tPK"
+  },
+  {
+    cord:"6\t134\t60000\t1340000\t53NLG8932563306\tNB53-06\tPCLF\t\tPS\tPalau\tRepublic of Palau\t2007-02-28\tPW"
+  },
+  {
+    cord:"9\t-80\t90000\t-800000\t17PPK0991995002\tNC17-11\tPCLI\t\tPM\tPanama\tRepublic of Panama\t2007-02-28\tPA"
+  },
+  {
+    cord:"-6\t147\t-60000\t1470000\t55MEP0000036795\tSB55-07\tPCLI\t\tPP\tPapua New Guinea\tIndependent State of Papua New Guinea\t2007-02-28\tPG"
+  },
+  {
+    cord:"-22.993333\t-57.996389\t-225936\t-575947\t21KUQ9788056871\tSF21-10\tPCLI\t\tPA\tParaguay\tRepublic of Paraguay\t2007-02-28\tPY"
+  },
+  {
+    cord:"-10\t-76\t-100000\t-760000\t18LUP9039994421\tSC18-06\tPCLI\t\tPE\tPeru\tRepublic of Peru\t2007-02-28\tPE"
+  },
+  {
+    cord:"13\t122\t130000\t1220000\t51PUQ9155437349\tND51-10\tPCLI\t\tRP\tPhilippines\tRepublic of the Philippines\t2007-02-28\tPH"
+  },
+  {
+    cord:"-25.066667\t-130.1\t-250400\t-1300600\t09JUN8905527219\tSG09-06\tPCLD\tUK\tPC\tPitcairn Islands\tHenderson Ducie and Oeno Islands Pitcairn\t2007-02-28\tPN"
+  },
+  {
+    cord:"52\t20\t520000\t200000\t34UDC3135061510\tNN34-11\tPCLI\t\tPL\tPoland\tRepublic of Poland\t2007-02-28\tPL"
+  },
+  {
+    cord:"39.5\t-8\t393000\t-80000\t29SND8598072742\tNJ29-03\tPCLI\t\tPO\tPortugal\tPortuguese Republic\t2007-03-09\tPT"
+  },
+  {
+    cord:"18.2482882\t-66.4998941\t181454\t-663000\t1779808\t\tPCLD\tUS\tPR\tPuerto Rico\tCommonwealth of Puerto Rico\t1998-02-06\tPR"
+  },
+  {
+    cord:"25.5\t51.25\t253000\t511500\t39RWJ2512420338\tNG39-11\tPCLI\t\tQA\tQatar\tState of Qatar\t2011-01-28\tQA"
+  },
+  {
+    cord:"-1\t15\t-10000\t150000\t33MWU0000089470\tSA33-03\tPCLI\t\tCF\tRepublic of the Congo\tRepublic of the Congo\t2007-02-28\tCG"
+  },
+  {
+    cord:"-21.1\t55.6\t-210600\t553600\t40KCB5458666145\tSF40-06\tADM1\tFR\tRE\tReunion\tDepartment of Reunion\t2007/02/28\tRE"
+  },
+  {
+    cord:"46\t25\t460000\t250000\t35TLL4513695992\tNL35-04\tPCLI\t\tRO\tRomania\tRomania\t2007-02-28\tRO"
+  },
+  {
+    cord:"60\t100\t600000\t1000000\t47VNG5577651833\tNP47-14\tPCLI\t\tRS\tRussia\tRussian Federation\t2007-02-28\tRU"
+  },
+  {
+    cord:"-2\t30\t-20000\t300000\t36MSC6622478634\tSA36-05\tPCLI\t\tRW\tRwanda\tRepublic of Rwanda\t2007-03-09\tRW"
+  },
+  {
+    cord:"17.9\t-62.833333\t175400\t-625000\t20QNE1765479130\tNE20-11\tPCLD\tFR\tTB\tSaint Barthelemy\tSaint Barthelemy\t2010-11-04\tBL"
+  },
+  {
+    cord:"17.333333\t-62.75\t172000\t-624500\t20QNE2656316448\tNE20-11\tPCLI\t\tSC\tSaint Kitts and Nevis\tFederation of Saint Kitts and Nevis\t2007-02-28\tKN"
+  },
+  {
+    cord:"13.883333\t-60.966667\t135300\t-605800\t20PQA1973335759\tND20-08\tPCLI\t\tST\tSaint Lucia\tSaint Lucia\t1993-12-22\tLC"
+  },
+  {
+    cord:"18.075\t-63.05833\t180430\t-630330\t20QME9382898484\tNE20-06\tPCLD\tFR\tRN\tSaint Martin\tSaint Martin\t2010-11-04\tMF"
+  },
+  {
+    cord:"46.833333\t-56.333333\t465000\t-562000\t21TWM5084186859\tNL21-02\tADM1\tFR\tSB\tSaint Pierre and Miquelon\tTerritorial Collectivity of Saint Pierre and Miquelon\t2007/02/28\tPM"
+  },
+  {
+    cord:"13.083333\t-61.2\t130500\t-611200\t20PPV9515847045\tND20-16\tPCLI\t\tVC\tSaint Vincent and the Grenadines\tSaint Vincent and the Grenadines\t1993-12-22\tVC"
+  },
+  {
+    cord:"-13.803096\t-172.178309\t-134811\t-1721042\t02LLK7263873738\tSD02-06\tPCLI\t\tWS\tSamoa\tIndependent State of Samoa\t2009-11-03\tWS"
+  },
+  {
+    cord:"43.933333\t12.416667\t435600\t122500\t33TTJ9264967713\tNK33-01\tPCLI\t\tSM\tSan Marino\tRepublic of San Marino\t2007-02-28\tSM"
+  },
+  {
+    cord:"1\t7\t10000\t70000\t32NKG7743810598\tNA32-09\tPCLI\t\tTP\tSao Tome and Principe\tDemocratic Republic of Sao Tome and Principe\t2007-02-28\tST"
+  },
+  {
+    cord:"25\t45\t250000\t450000\t38RNN0000064948\tNG38-11\tPCLI\t\tSA\tSaudi Arabia\tKingdom of Saudi Arabia\t2009-07-28\tSA"
+  },
+  {
+    cord:"14\t-14\t140000\t-140000\t28PFA0799647954\tND28-07\tPCLI\t\tSG\tSenegal\tRepublic of Senegal\t2007-02-28\tSN"
+  },
+  {
+    cord:"44\t21\t440000\t210000\t34TEP0000071873\tNL34-11\tPCLI\t\tRI\tSerbia\tRepublic of Serbia\t2009-02-28\tRS"
+  },
+  {
+    cord:"-4.583333\t55.666667\t-43500\t554000\t40MCV5209193256\tSB40-01\tPCLI\t\tSE\tSeychelles\tRepublic of Seychelles\t2007-02-28\tSC"
+  },
+  {
+    cord:"8.5\t-11.5\t83000\t-113000\t29PKK2476440462\tNC29-13\tPCLI\t\tSL\tSierra Leone\tRepublic of Sierra Leone\t2007-02-28\tSL"
+  },
+  {
+    cord:"1.366667\t103.8\t12200\t1034800\t48NUG6649851091\tNA48-10\tPCLI\t\tSN\tSingapore\tRepublic of Singapore\t2007-02-28\tSG"
+  }
+]

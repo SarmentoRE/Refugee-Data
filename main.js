@@ -1,4 +1,4 @@
-'use strict';
+
 
 var container = document.getElementById('container');
 var globe = new DAT.Globe(container);
@@ -43,7 +43,6 @@ function countrySearch(country){
 	}
 	x += "</select>"
 	document.getElementById("searchBox").innerHTML = x;
-	document.getElementById("title").innerHTML = getElementsByName("countrys");
 }
 
 function yearSelect(year){
@@ -69,8 +68,9 @@ function yearSelect(year){
 }
 
 function buildGlobe(globe){
-	year = getElementsByClassName("year active");
-	country = getElementsByName("countrys").value;
+	globe.reset;
+	year = document.getElementsByClassName("year active");
+	country = document.getElementsByName("countrys").value;
 	var data;
 	var refugees;
 	var point;
@@ -82,23 +82,24 @@ function buildGlobe(globe){
 			data = JSON.parse(this.responseText);
 			
 			var rawFile = new XMLHttpRequest();
-			var file = "file://cords.txt"
+			var file = "cords.json"
 			var counter = 0;
 			var split;
 			
-			rawFile.open("GET", file, false);
+			rawFile.open("GET", file, true);
 			rawFile.onreadystatechange = function (){
 				if(rawFile.readyState === 4)
 				{
 					if(rawFile.status === 200 || rawFile.status == 0)
 					{
-						var allText = (rawFile.responseText).split("\n");
+						var allText = JSON.parse(rawFile.responseText);
 						var line;
 						for(var i = 1; i <allText.length; i++){
 							for(var j = 0; j < data.length; j++){
-								if((allText[i].toUpperCase).contains((data[j].country_of_origin_en).toUpperCase))
+								if((allText[i][1].cord).toUpperCase.contains((data[j].country_of_origin_en).toUpperCase))
 								{
-									line[counter] = allText[i];
+									console.log(allText[i][1]);
+									line[counter] = allText[i][1];
 									refugees[counter] = data[j].value;
 									counter++;
 								}
@@ -111,7 +112,12 @@ function buildGlobe(globe){
 							point[i+1] = split [1];
 							point[i+2] = refugees[counter];
 							counter++;
-						}					
+						}
+						window.data = point;
+						globe.addData(point, {format: 'magnitude'})
+						globe.createPoints();
+						globe.animate();
+						document.body.style.backgroundImage = 'none';
 					}
 				}
 				
@@ -119,7 +125,4 @@ function buildGlobe(globe){
 			rawFile.send(null);
 		}
 	}
-	globe.addData(point, {format: 'magnitude'})
-	globe.createPoints();
-	globe.animate();
 }
