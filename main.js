@@ -29,7 +29,7 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.send();
 
 function yearList(year){
-	var x ="<span id = \"yearAll\" class=\"year\">All</span>", i;
+	var x ="", i;
 	for (i=0; i<year.length; i++) {
 		x = x + "<span id = \"year"+year[i]+"\" class=\"year\">"+year[i]+"</span>";
 	}
@@ -37,11 +37,13 @@ function yearList(year){
 }
 
 function countrySearch(country){
-	var x = "", i;
+	var x = "<select name=\"countrys\">", i;
 	for(i=0; i<country.length; i++){
-		x = x + "<option value=\""+country[i].country_of_residence_en+"\">";
+		x = x + "<option value=\""+country[i].country_of_residence+"\">"+country[i].country_of_residence_en+"</option>";
 	}
-	document.getElementById("countrys").innerHTML = x;
+	x += "</select>"
+	document.getElementById("searchBox").innerHTML = x;
+	document.getElementById("title").innerHTML = getElementsByName("countrys");
 }
 
 function yearSelect(year){
@@ -56,6 +58,7 @@ function yearSelect(year){
 				yy[i].setAttribute('class','year');
 			}
 			y.setAttribute('class', 'year active');
+			buildGlobe(globe);
         };
     };
 
@@ -63,4 +66,60 @@ function yearSelect(year){
 		var y = document.getElementById('year'+year[i]);
         y.addEventListener('click', settime(i), false);
     }
+}
+
+function buildGlobe(globe){
+	year = getElementsByClassName("year active");
+	country = getElementsByName("countrys").value;
+	var data;
+	var refugees;
+	var point;
+	xmlhttp = new XMLHttpRequest();
+	url = "//data.unhcr.org/api/stats/time_series.json?year="+year+"&country_of_residence="+country+"&population_type_code=RF";
+	xmlhttp.open("GET", url, true);
+	xmlhttp.onreadystatechange = function() {
+		if(this.readyState == 4 && this.status == 200) {
+			data = JSON.parse(this.responseText);
+			
+			var rawFile = new XMLHttpRequest();
+			var file = "file://cords.txt"
+			var counter = 0;
+			var split;
+			
+			rawFile.open("GET", file, false);
+			rawFile.onreadystatechange = function (){
+				if(rawFile.readyState === 4)
+				{
+					if(rawFile.status === 200 || rawFile.status == 0)
+					{
+						var allText = (rawFile.responseText).split("\n");
+						var line;
+						for(var i = 1; i <allText.length; i++){
+							for(var j = 0; j < data.length; j++){
+								if((allText[i].toUpperCase).contains((data[j].country_of_origin_en).toUpperCase))
+								{
+									line[counter] = allText[i];
+									refugees[counter] = data[j].value;
+									counter++;
+								}
+							}
+						}
+						counter = 0;
+						for(var i =0; line.length >= counter; i+=3){
+							split = line[counter].split("\t",2);
+							point[i] = split[0];
+							point[i+1] = split [1];
+							point[i+2] = refugees[counter];
+							counter++;
+						}					
+					}
+				}
+				
+			}
+			rawFile.send(null);
+		}
+	}
+	globe.addData(point, {format: 'magnitude'})
+	globe.createPoints();
+	globe.animate();
 }
