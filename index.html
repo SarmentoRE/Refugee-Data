@@ -82,20 +82,11 @@
         color: #fff;
       }
 
-      #ce span {
-        display: none;
-      }
-
-      #ce {
-        width: 107px;
-        height: 55px;
-        display: block;
-        position: absolute;
-        bottom: 15px;
-        left: 20px;
-        background: url(/globe/ce.png);
-      }
-
+	  #searchBox{
+		position: absolute;
+		right: 20px;
+		top: 30px;
+	  }
 
     </style>
   </head>
@@ -111,17 +102,25 @@
   </div>
   
   <div id="currentInfo"></div>
-
+  
+  <datalist id="countrys"></datalist>
+  
+  <div id="searchBox">
+  
+  <label for="default">Pick a country</label>
+  <input type="text" id="default" list="countrys" placeholder="e.g. Syria">
+  
+  </div>
+  
   <div id="title">
     Refugee's Country of Origin
   </div>
 
-
-  <script type="text/javascript" src="/globe/third-party/Detector.js"></script>
-  <script type="text/javascript" src="/globe/third-party/three.min.js"></script>
-  <script type="text/javascript" src="/globe/third-party/Tween.js"></script>
-  <script type="text/javascript" src="/globe/globe.js"></script>
-  <script type="text/javascript" src="/globe/main.js"></script>
+  <script type="text/javascript" src="/third-party/Detector.js"></script>
+  <script type="text/javascript" src="/third-party/three.min.js"></script>
+  <script type="text/javascript" src="/third-party/Tween.js"></script>
+  <script type="text/javascript" src="globe.js"></script>
+  <script type="text/javascript" src="main.js"></script>
 
   </body>
   
