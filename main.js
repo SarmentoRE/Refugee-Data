@@ -1,7 +1,7 @@
 'use strict';
 
 var container = document.getElementById('container');
-//var globe = new DAT.Globe(container);
+var globe = new DAT.Globe(container);
 var xmlhttp = new XMLHttpRequest();
 var url = "//data.unhcr.org/api/stats/time_series_years.json";
 var year;
