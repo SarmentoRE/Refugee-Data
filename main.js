@@ -3,7 +3,7 @@
 var container = document.getElementById('container');
 //var globe = new DAT.Globe(container);
 var xmlhttp = new XMLHttpRequest();
-var url = "//data.unhcr.org/api/stats/time_series_years.json";
+var url = "https://data.unhcr.org/api/stats/time_series_years.json";
 var year;
 var country;
 
@@ -18,7 +18,7 @@ xmlhttp.onreadystatechange = function() {
 xmlhttp.send();
 
 xmlhttp = new XMLHttpRequest();
-url = "//data.unhcr.org/api/stats/country_of_residence.json";
+url = "https://data.unhcr.org/api/stats/country_of_residence.json";
 xmlhttp.open("GET", url, true);
 xmlhttp.onreadystatechange = function() {
 	if(this.readyState == 4 && this.status == 200) {
