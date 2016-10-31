@@ -1,4 +1,4 @@
-
+'use strict';
 
 var container = document.getElementById('container');
 var globe = new DAT.Globe(container);
@@ -7,12 +7,13 @@ var url = "//data.unhcr.org/api/stats/time_series_years.json";
 var year;
 var country;
 
-xmlhttp.open("GET", url, true);
+xmlhttp.open('GET', url, true);
 xmlhttp.onreadystatechange = function() {
 	if(this.readyState == 4 && this.status == 200) {
 		year = JSON.parse(this.responseText);
 		yearList(year);
 		yearSelect(year)
+		globe.animate();
 	}
 };
 xmlhttp.send();
@@ -43,6 +44,7 @@ function countrySearch(country){
 	}
 	x += "</select>"
 	document.getElementById("searchBox").innerHTML = x;
+	buildGlobe(globe);
 }
 
 function yearSelect(year){
@@ -57,8 +59,8 @@ function yearSelect(year){
 				yy[i].setAttribute('class','year');
 			}
 			y.setAttribute('class', 'year active');
-			buildGlobe(globe);
         };
+		buildGlobe(globe);
     };
 
     for(var i = 0; i<year.length; i++) {
@@ -68,53 +70,69 @@ function yearSelect(year){
 }
 
 function buildGlobe(globe){
-	globe.reset;
-	year = document.getElementsByClassName("year active");
-	country = document.getElementsByName("countrys").value;
+	globe.reset();
+	year = document.getElementsByClassName("year active").value;
+	if (document.getElementById("searchBox").selectedIndex == null){
+		country = "Afghanistan";
+	}
+	else{
+		country = document.getElementById("searchBox").selectedIndex.value;
+	}
+	if(year == null){
+		year = "2000";
+	}
 	var data;
 	var refugees;
-	var point;
+	var point = {series : []};
+	var test;
+	var file = "cords.json";
+	var counter = 0;
+	var split;
 	xmlhttp = new XMLHttpRequest();
+	console.log(year+"    "+country);
 	url = "//data.unhcr.org/api/stats/time_series.json?year="+year+"&country_of_residence="+country+"&population_type_code=RF";
 	xmlhttp.open("GET", url, true);
-	xmlhttp.onreadystatechange = function() {
+	console.log(file);
+	xmlhttp.onreadystatechange = function() { console.log(this.readyState);
 		if(this.readyState == 4 && this.status == 200) {
 			data = JSON.parse(this.responseText);
-			
 			var rawFile = new XMLHttpRequest();
-			var file = "cords.json"
-			var counter = 0;
-			var split;
 			
-			rawFile.open("GET", file, true);
+			rawFile.open("GET", file, false);
 			rawFile.onreadystatechange = function (){
+				console.log(file);
 				if(rawFile.readyState === 4)
 				{
-					if(rawFile.status === 200 || rawFile.status == 0)
+					if(rawFile.status === 200 || rawFile.status === 0)
 					{
 						var allText = JSON.parse(rawFile.responseText);
-						var line;
+						var originCords = [];
 						for(var i = 1; i <allText.length; i++){
 							for(var j = 0; j < data.length; j++){
-								if((allText[i][1].cord).toUpperCase.contains((data[j].country_of_origin_en).toUpperCase))
+								if((allText[i].cord).contains(data[j].country_of_origin_en))
 								{
-									console.log(allText[i][1]);
-									line[counter] = allText[i][1];
+									split = (allText[i].cord).split("\t",2);
+									originCords = originCords.concat(split);
 									refugees[counter] = data[j].value;
 									counter++;
 								}
 							}
 						}
+						
 						counter = 0;
-						for(var i =0; line.length >= counter; i+=3){
-							split = line[counter].split("\t",2);
-							point[i] = split[0];
-							point[i+1] = split [1];
-							point[i+2] = refugees[counter];
-							counter++;
+						for(var i =0; i<originCords.length+refugees.length; i+=3){
+							console.log("Point"+point.series[i]);
+							console.log("refugees"+refugees[Math.floor(counter/2)]);
+							if((refugees[Math.floor(counter/2)]) != null){
+								point.series[i] = originCords[counter];
+								point.series[i+1] = originCords[counter+1];
+								point.series[i+2] = refugees[Math.floor(counter/2)];
+								console.log(point.series[i]);
+							}
+							counter+=2;
 						}
 						window.data = point;
-						globe.addData(point, {format: 'magnitude'})
+						globe.addData(point.series, {format: 'magnitude'});
 						globe.createPoints();
 						globe.animate();
 						document.body.style.backgroundImage = 'none';
@@ -123,6 +141,7 @@ function buildGlobe(globe){
 				
 			}
 			rawFile.send(null);
+			xmlhttp.send();
 		}
 	}
 }

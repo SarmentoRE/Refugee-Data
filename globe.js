@@ -264,10 +264,8 @@ DAT.Globe = function(container, opts) {
       point.geometry.faces[i].color = color;
 
     }
-    if(point.matrixAutoUpdate){
-      point.updateMatrix();
-    }
-    subgeo.merge(point.geometry, point.matrix);
+    
+	 THREE.GeometryUtils.merge(subgeo, point);
   }
 
   function onMouseDown(event) {
@@ -397,11 +395,17 @@ DAT.Globe = function(container, opts) {
     this.points.morphTargetInfluences[index] = leftover;
     this._time = t;
   });
-
+  
+  function reset() {
+    scene.remove(this.points);
+    this.points = null;
+  }
+  
   this.addData = addData;
   this.createPoints = createPoints;
   this.renderer = renderer;
   this.scene = scene;
+  this.reset = reset;
 
   return this;
 
