@@ -38,13 +38,12 @@ function yearList(year){
 }
 
 function countrySearch(country){
-	var x = "<select name=\"countrys\">", i;
+	var x = "<select id=\"countrys\">", i;
 	for(i=0; i<country.length; i++){
 		x = x + "<option value=\""+country[i].country_of_residence+"\">"+country[i].country_of_residence_en+"</option>";
 	}
 	x += "</select>"
 	document.getElementById("searchBox").innerHTML = x;
-	buildGlobe(globe);
 }
 
 function yearSelect(year){
@@ -59,8 +58,8 @@ function yearSelect(year){
 				yy[i].setAttribute('class','year');
 			}
 			y.setAttribute('class', 'year active');
+			buildGlobe(globe);
         };
-		buildGlobe(globe);
     };
 
     for(var i = 0; i<year.length; i++) {
@@ -71,23 +70,21 @@ function yearSelect(year){
 
 function buildGlobe(globe){
 	globe.reset();
-	year = document.getElementsByClassName("year active").value;
-	if (document.getElementById("searchBox").selectedIndex == null){
-		country = "Afghanistan";
+	console.log(document.getElementsByClassName("year active")[0].innerHTML);
+	year = document.getElementsByClassName("year active")[0].innerHTML;
+	country = document.getElementById("countrys").options.item(document.getElementById("countrys").options.selectedIndex).value;
+	if (country == null){
+		country = "IRQ";
 	}
-	else{
-		country = document.getElementById("searchBox").selectedIndex.value;
-	}
-	if(year == null){
+	if(year == null || year == "undefined"){
 		year = "2000";
 	}
 	var data;
-	var refugees;
 	var point = {series : []};
 	var test;
 	var file = "cords.json";
 	var counter = 0;
-	var split;
+	var split = [];
 	xmlhttp = new XMLHttpRequest();
 	console.log(year+"    "+country);
 	url = "//data.unhcr.org/api/stats/time_series.json?year="+year+"&country_of_residence="+country+"&population_type_code=RF";
@@ -98,39 +95,44 @@ function buildGlobe(globe){
 			data = JSON.parse(this.responseText);
 			var rawFile = new XMLHttpRequest();
 			
-			rawFile.open("GET", file, false);
+			rawFile.open("GET", file, true);
 			rawFile.onreadystatechange = function (){
-				console.log(file);
+				console.log(rawFile.readyState);
 				if(rawFile.readyState === 4)
 				{
+					console.log(rawFile.status);
 					if(rawFile.status === 200 || rawFile.status === 0)
 					{
+						console.log(file);
 						var allText = JSON.parse(rawFile.responseText);
 						var originCords = [];
-						for(var i = 1; i <allText.length; i++){
+						var refugees = [];
+						console.log(allText);
+						console.log(data);
+						for(var i = 0; i <allText.length; i++){
 							for(var j = 0; j < data.length; j++){
-								if((allText[i].cord).contains(data[j].country_of_origin_en))
+								if((allText[i].cca3).includes(data[j].country_of_origin))
 								{
-									split = (allText[i].cord).split("\t",2);
+									split[0] = allText[i].latlng[0];
+									split[1] = allText[i].latlng[1];
 									originCords = originCords.concat(split);
 									refugees[counter] = data[j].value;
 									counter++;
 								}
 							}
 						}
-						
+						console.log("refugees"+refugees);
 						counter = 0;
 						for(var i =0; i<originCords.length+refugees.length; i+=3){
-							console.log("Point"+point.series[i]);
-							console.log("refugees"+refugees[Math.floor(counter/2)]);
 							if((refugees[Math.floor(counter/2)]) != null){
 								point.series[i] = originCords[counter];
 								point.series[i+1] = originCords[counter+1];
 								point.series[i+2] = refugees[Math.floor(counter/2)];
-								console.log(point.series[i]);
 							}
 							counter+=2;
 						}
+						console.log("Point"+point.series);
+						console.log("refugees"+refugees);
 						window.data = point;
 						globe.addData(point.series, {format: 'magnitude'});
 						globe.createPoints();
@@ -140,8 +142,8 @@ function buildGlobe(globe){
 				}
 				
 			}
-			rawFile.send(null);
-			xmlhttp.send();
+			rawFile.send();
 		}
 	}
+	xmlhttp.send();
 }

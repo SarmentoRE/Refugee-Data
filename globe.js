@@ -206,7 +206,7 @@ DAT.Globe = function(container, opts) {
       lng = data[i + 1];
       color = colorFnWrapper(data,i);
       size = data[i + 2];
-      size = size*200;
+      size = size/100;
       addPoint(lat, lng, size, color, subgeo);
     }
     if (opts.animated) {
@@ -264,8 +264,12 @@ DAT.Globe = function(container, opts) {
       point.geometry.faces[i].color = color;
 
     }
+	
+	if(point.matrixAutoUpdate){
+      point.updateMatrix();
+    }
     
-	 THREE.GeometryUtils.merge(subgeo, point);
+	 subgeo.merge(point.geometry, point.matrix);
   }
 
   function onMouseDown(event) {
