@@ -4,6 +4,8 @@
     <title>Refugee Globe</title>
     <meta charset="utf-8">
     <style type="text/css">
+      
+	 
       html {
         height: 100%;
       }
@@ -33,9 +35,7 @@
         position: absolute;
         left: 10px;
         top: 63px;
-
         background-color: rgba(0,0,0,0.2);
-
         border-top: 1px solid rgba(255,255,255,0.4);
         padding: 10px;
       }
@@ -72,7 +72,6 @@
         float: left;
         width: 90px;
         color: rgba(255, 255, 255, 0.4);
-
         cursor: pointer;
         -webkit-transition: all 0.2s ease-out;
       }
@@ -85,9 +84,21 @@
 	  #searchBox{
 		position: absolute;
 		right: 20px;
-		top: 30px;
+		top: 63px;
+		border-top: 1px solid rgba(255,255,255,0.4);
+		padding: 10px;
 	  }
-
+	  
+	  #countryOfRefuge{
+		position: absolute;
+        top: 20px;
+		width: 270px;
+        right: 32px;
+        background-color: rgba(0,0,0,0.2);
+		border-radius: 3px;
+        font: 20px Georgia;
+        padding: 10px;
+	  }
     </style>
   </head>
   <body>
@@ -104,11 +115,15 @@
   <div id="currentInfo">
   </div>
   
+  <div id='countryOfRefuge'>
+	Country of Refuge
+  </div>
+  
   <div id="searchBox">
   </div>
   
   <div id="title">
-    Refugee's Country of Origin
+    Refugee's Arrival
   </div>
 
   <script type="text/javascript" src="third-party/Detector.js"></script>
