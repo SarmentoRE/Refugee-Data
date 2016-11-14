@@ -38,7 +38,7 @@ function yearList(year){
 }
 
 function countrySearch(country){
-	var x = "<select id=\"countrys\">", i;
+	var x = "<select id=\"countrys\" onchange=\"buildGlobe(globe)\"><option selected disabled hidden>Choose counrty of refuge</option>", i;
 	for(i=0; i<country.length; i++){
 		x = x + "<option value=\""+country[i].country_of_residence+"\">"+country[i].country_of_residence_en+"</option>";
 	}
